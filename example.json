@@ -1,9 +1,9 @@
 {
   "bucket": "my-required-s3-bucket",
   "paths": [
-    "/ClientA/{date}",
-    "/ClientB/{date}",
-    "/ClientC/{date}"
+    "ClientA/{date}",
+    "ClientB/{date}",
+    "ClientC/{date}"
   ],
   "dateFormat": "%Y_%m_%d",
   "snsTopic": "my-custom-sns-topic-arn",
